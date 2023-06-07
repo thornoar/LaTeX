@@ -1,0 +1,15 @@
+\usepackage{tikz} %графическая библиотека
+
+\usepackage{tikz-cd}
+\usetikzlibrary{babel} %магия исправляюшая баг с компиляцией коммутативных диаграм
+
+% \usepackage{amscd}
+
+\newcommand*{\circled}[1]{\tikz[baseline=(char.base)]{\node[shape=circle,draw,inner sep=2pt] (char) {#1};}}%команда рисования в кружочке  
+
+\usepackage{graphics}
+\usepackage{caption, subcaption}
+\usepackage{wrapfig}
+\usepackage{graphicx}
+
+\newcommand{\insertgraphics}[2]{\includegraphics[#1]{D:/MicrosoftVSCodeProjects/TeXProjects/Media/images/Insert/#2}}
